@@ -1,7 +1,9 @@
+import UserInput from "./components/UserInput";
+
 function App() {
   return (
-    <h1>React Investment Calculator</h1>
-  )
+   <UserInput id="user-input"/>
+  );
 }
 
 export default App
