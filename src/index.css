@@ -45,6 +45,17 @@ body {
   gap: 1.5rem;
 }
 
+.input-pair {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1;
+  
+}
+.input-group + .input-group {
+  margin-top: 2rem; /* space between groups */
+}
+
 #user-input label {
   display: block;
   margin-bottom: 0.25rem;
